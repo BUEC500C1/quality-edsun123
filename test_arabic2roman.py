@@ -25,9 +25,47 @@ def arabic2roman(num):
 def test_hello_world():
     assert hello_world() == "Hello World!"
     
-    
 def test_arabic2roman():
     assert arabic2roman(1) == "I"
     
 def test_arabic2roman2():
     assert arabic2roman(4000) == "MMMM"
+    
+def test_arabic2roman3():
+    assert arabic2roman(10) == "x"
+
+def test_arabic2roman4():
+    assert arabic2roman(2) == "II"
+    
+def test_arabic2roman5():
+    assert arabic2roman(3) == "III"
+
+def test_arabic2roman6():
+    assert arabic2roman(5) == "V"
+ 
+def test_arabic2roman7():
+    assert arabic2roman(4) == "IV"
+    
+def test_arabic2roman8():
+    assert arabic2roman(6) == "VI"
+    
+def test_arabic2roman9():
+    assert arabic2roman(25) == "XXV"
+    
+def test_arabic2roman10():
+    assert arabic2roman(50) == "L"
+    
+def test_arabic2roman11():
+    assert arabic2roman(100) == "C"
+    
+def test_arabic2roman12():
+    assert arabic2roman(11) == "XI"
+
+def test_arabic2roman13():
+    assert arabic2roman(12) == "XII"
+    
+def test_arabic2roman14():
+    assert arabic2roman(9) == "IX"
+    
+def test_arabic2roman15():
+    assert arabic2roman(8) == "VIII"
