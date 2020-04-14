@@ -32,7 +32,7 @@ def test_arabic2roman2():
     assert arabic2roman(4000) == "MMMM"
     
 def test_arabic2roman3():
-    assert arabic2roman(10) == "x"
+    assert arabic2roman(10) == "X"
 
 def test_arabic2roman4():
     assert arabic2roman(2) == "II"
