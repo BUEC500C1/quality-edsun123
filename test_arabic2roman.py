@@ -73,3 +73,18 @@ def test_arabic2roman14():
     
 def test_arabic2roman15():
     assert arabic2roman(8) == "VIII"
+
+def test_arabic2roman16():
+    assert arabic2roman("string")==false
+    
+def test_arabic2roman17():
+    assert arabic2roman(1/2)==false
+
+def test_arabic2roman18():
+    assert arabic2roman(0.5)==false
+
+def test_arabic2roman19():
+    assert arabic2roman(2.0)==false
+
+def test_arabic2roman20():
+    assert arabic2roman("--------")==false
