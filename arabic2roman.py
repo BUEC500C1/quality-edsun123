@@ -11,6 +11,10 @@ def hello_world():
     
     
 def arabic2roman(num):
+    
+    if(isinstance(num,int)!=True):
+        print("bad input")
+        return False
     #an array of numbers up to 1000
     dec = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
     
@@ -33,7 +37,3 @@ def arabic2roman(num):
         index+=1
     # returns result string
     return result
-
-print(hello_world())
-print(arabic2roman(1))
-print("hello")
