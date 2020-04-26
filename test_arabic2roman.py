@@ -10,9 +10,9 @@ if __name__ == "__main__":
     app.run()
     
 def arabic2roman(num):
-    if(isinstance(x,int)!=True):
+    if(isinstance(num,int)!=True):
         print("bad input")
-        return false
+        return False
     
     dec = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
     rom = ["M", "CM", "D", "CD", "C", "XC", "L", "XL","X", "IX", "V", "IV","I"]
@@ -75,16 +75,16 @@ def test_arabic2roman15():
     assert arabic2roman(8) == "VIII"
 
 def test_arabic2roman16():
-    assert arabic2roman("string")==false
+    assert arabic2roman("string")==False
     
 def test_arabic2roman17():
-    assert arabic2roman(1/2)==false
+    assert arabic2roman(1/2)==False
 
 def test_arabic2roman18():
-    assert arabic2roman(0.5)==false
+    assert arabic2roman(0.5)==False
 
 def test_arabic2roman19():
-    assert arabic2roman(2.0)==false
+    assert arabic2roman(2.0)==False
 
 def test_arabic2roman20():
-    assert arabic2roman("--------")==false
+    assert arabic2roman("--------")==False
